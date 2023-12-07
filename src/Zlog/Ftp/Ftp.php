@@ -1,5 +1,5 @@
 <?php
-namespace Anchu\Ftp;
+namespace Zlog\Ftp;
 
 class Ftp {
 

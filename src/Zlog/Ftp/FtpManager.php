@@ -1,5 +1,5 @@
 <?php
-namespace Anchu\Ftp;
+namespace Zlog\Ftp;
 
 use Illuminate\Support\Arr;
 
@@ -69,7 +69,7 @@ class FtpManager {
      * Make the FTP connection instance.
      *
      * @param  string  $name
-     * @return \Anchu\Ftp\Ftp
+     * @return \Zlog\Ftp\Ftp
      */
     protected function makeConnection($name)
     {
@@ -117,7 +117,7 @@ class FtpManager {
      * Reconnect to the given ftp.
      *
      * @param  string  $name
-     * @return \Anchu\Ftp\Ftp
+     * @return \Zlog\Ftp\Ftp
      */
     public function reconnect($name = null)
     {

@@ -1,5 +1,5 @@
 {
-    "name": "anchu/ftp",
+    "name": "zlog/ftp",
     "description": "A simple Laravel ftp service provider fork from anchu/ftp",
     "keywords": ["ftp", "laravel", "service provider"],
     "license": "MIT",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-0": {
-            "Anchu\\Ftp\\": "src/"
+            "Zlog\\Ftp\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Anchu\\Ftp\\FtpServiceProvider"
+                "Zlog\\Ftp\\FtpServiceProvider"
             ]
         }
     },

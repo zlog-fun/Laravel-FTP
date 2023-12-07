@@ -1,4 +1,5 @@
-<?php namespace Anchu\Ftp\Facades;
+<?php
+ namespace Zlog\Ftp\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

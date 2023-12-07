@@ -1,5 +1,5 @@
 <?php 
-namespace Anchu\Ftp;
+namespace Zlog\Ftp;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -37,7 +37,7 @@ class FtpServiceProvider extends ServiceProvider
 
         $this->app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('FTP', 'Anchu\Ftp\Facades\Ftp');
+            $loader->alias('FTP', 'Zlog\Ftp\Facades\Ftp');
         });
     }
 
